@@ -33,8 +33,8 @@ beef:
     # HTTP server
     http:
         debug: false #Thin::Logging.debug, very verbose. Prints also full exception stack trace.
-        host: "0.0.0.0"
-        port: "3000"
+        host: "127.0.0.1"
+        port: "80"
 
         # Decrease this setting to 1,000 (ms) if you want more responsiveness
         #  when sending modules and retrieving results.
@@ -154,7 +154,7 @@ beef:
         events:
             enable: true
         evasion:
-            enable: false
+            enable: true
         requester:
             enable: true
         proxy:
@@ -162,7 +162,7 @@ beef:
         network:
             enable: true
         metasploit:
-            enable: false
+            enable: true
         social_engineering:
             enable: true
         xssrays:
