@@ -20,12 +20,12 @@ beef:
     extension:
         metasploit:
             name: 'Metasploit'
-            enable: false
+            enable: true
             # Metasploit msgrpc connection options
             host: "127.0.0.1"
-            port: 55552
-            user: "msf"
-            pass: "abc123"
+            port: 80
+            user: "beef"
+            pass: "beef"
             uri: '/api'
             ssl: true
             ssl_version: 'TLS1'
